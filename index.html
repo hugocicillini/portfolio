@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>hCicillini</h1>
+        </div>
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="assets/imagens/x.png"
+                    alt="x"></a>
+
+            <nav class="navbar">
+                <ul class="nav_list" onclick="closeNav()">
+                    <li><a id="testa" href="#home0">Home</a></li>
+                    <li><a href="#sobre0">Sobre</a></li>
+                    <li><a href="#skills0">Skills</a></li>
+                    <li><a href="#works0">Works</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <button class="nav-button" onclick="openNav()"><img src="assets/imagens/menu.png" alt="hamburguer"></button>
+
+    </header>
+
+    <div id="home0"></div>
+
+    <main>
+        <section id="home">
+            <div>
+                <h1>Olá,<br>Eu sou o <span>Hugo</span><br>Web Developer</h1>
+
+                <button><a href="mailto:hugo.cicillini@hotmail.com">Contato</a></button>
+
+                <div class="links_media">
+                    <a href="https://www.linkedin.com/in/hugo-cicillini-51390a254/" target="_blank"><img
+                            src="assets/imagens/linkedin.png" alt="linkedin"></a>
+                    <a href="https://www.github.com/hugocicillini/" target="_blank"><img src="assets/imagens/github.png"
+                            alt="github"></a>
+                    <a href="https://www.instagram.com/hugocicillini" target="_blank"><img
+                            src="assets/imagens/instagram.png" alt="instagram"></a>
+                </div>
+            </div>
+
+            <div>
+                <img src="assets/imagens/perfil.png" alt="perfil">
+            </div>
+        </section>
+
+        <div id="sobre0"></div>
+
+        <section id="sobre">
+            <h1><span>Sobre</span></h1>
+
+            <div class="about_perfil">
+                <img src="assets/imagens/perfiel.jpeg" alt="perfil2">
+
+                <div>
+                    <h2>Eu sou o Hugo</h2>
+
+                    <p>Ligado a tecnologia desde pequeno. Comecei na área de desenvolvimento no começo de 2022,
+                        assistindo vídeos online e praticando através de projetos. Focando inicialmente no front-end
+                        para um futuro desenvolvedor full-stack!
+                        Em 2022, participei do Tiro de Guerra da cidade, atuando como Monitor e sendo promovido a cabo.
+                        Durante esse período, desenvolvi e aprimorei capacidade de trabalhar em equipe; dedicação e
+                        comprometimento; habilidades de liderança e responsabilidade.<br><br>
+                        <strong>Histórico Acadêmico:</strong><br>
+                        - Técnico em Informática - SENAC Ribeirão Preto (Março 2022 - Agosto 2023);<br>
+                        - Ensino Médio - Colégio Castelo (2018-2020). <br><br>
+                        <strong>Experiências:</strong><br>
+                        - Certificado Cisco: NDG Linux Unhatched; <br>
+                        - Certificado Cisco: JSE - Certified JavaScript Entry-Level Programmer;<br>
+                        - Selos de Qualificação Google Cloud; <br>
+                        - Certificado de Honra ao Mérito; <br>
+                        - Menção Honrosa; <br>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div id="skills0"></div>
+
+        <section id="skills">
+            <h1><span>Skills</span></h1>
+
+            <div class="skills-progress">
+                <div>
+                    <h2>Habilidades Profissionais</h2>
+
+                    <p>Ao longo de vários vídeos e cursos na internet, além do tecnólogo em TI, obtive um ótimo
+                        conhecimento nos seguintes tópicos:</p>
+
+                    <div class="percent">
+                        <p><span>HTML <i class='bx bxl-html5'></i></span>80%</p>
+                        <div class="progress">
+                            <div class="html"></div>
+                        </div>
+                    </div>
+
+                    <div class="percent">
+                        <p><span>CSS <i class='bx bxl-css3'></i></span>75%</p>
+                        <div class="progress">
+                            <div class="css"></div>
+                        </div>
+                    </div>
+
+                    <div class="percent">
+                        <p><span>JavaScript <i class='bx bxl-javascript'></i></span>60%</p>
+                        <div class="progress">
+                            <div class="js"></div>
+                        </div>
+                    </div>
+
+                    <div class="percent">
+                        <p><span>PHP <i class='bx bxl-php'></i></span>60%</p>
+                        <div class="progress">
+                            <div class="php"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="skills-progress">
+                    <div>
+                        <h2>Habilidades Linguísticas</h2>
+
+                        <p>Aprendendo sozinho, em casa, através de muita dedicação e disciplina, obtive (e venho
+                            obtendo) um amplo conhecimento em INGLÊS. Séries, filmes e músicas foram e são os meus
+                            maiores aliados!</p>
+
+                        <div class="percent">
+                            <p><span>Entendimento <i class='bx bxs-book'></i></span>90%</p>
+                            <div class="progress">
+                                <div class="entend"></div>
+                            </div>
+                        </div>
+
+                        <div class="percent">
+                            <p><span>Escrita <i class='bx bxs-pencil'></i></span>85%</p>
+                            <div class="progress">
+                                <div class="escrita"></div>
+                            </div>
+                        </div>
+
+                        <div class="percent">
+                            <p><span>Pronunciação <i class='bx bxs-chat'></i></span>90%</p>
+                            <div class="progress">
+                                <div class="pronun"></div>
+                            </div>
+                        </div>
+
+                        <div class="percent">
+                            <p><span>Comunicação <i class='bx bxs-conversation'></i></span>70%</p>
+                            <div class="progress">
+                                <div class="comuni"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="works0"></div>
+
+        <section id="works">
+            <h1><span>Works</span></h1>
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <img src="assets/imagens/projeto1.png" alt="projeto1">
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Projeto Cordel</h2>
+                                <p class="description">Meu Primeiro Projeto. Treinando fundamentos básicos de
+                                    posicionamento de imagens.</p>
+
+                                <button class="button"><a href="https://hugocicillini.github.io/projeto-cordel/"
+                                        target="_blank">Ver Projeto</a></button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <img src="assets/imagens/projeto2.png" alt="projeto2">
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Projeto Android</h2>
+                                <p class="description">Um dos primeiros projetos, treinando responsividade de imagens,
+                                    vídeos e criação de navbar.</p>
+
+                                <button class="button"><a href="https://hugocicillini.github.io/projeto-android/"
+                                        target="_blank">Ver Projeto</a></button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <img src="assets/imagens/projeto3.png" alt="projeto3">
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Cadastro Usuário</h2>
+                                <p class="description">Página de cadastro, treinando elementos form, label e input </p>
+
+                                <button class="button"><a href="https://hugocicillini.github.io/cadastro-usuario/"
+                                        target="_blank">Ver Projeto</a></button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <img src="assets/imagens/projeto4.png" alt="projeto4">
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Relógio Dinâmico</h2>
+                                <p class="description">Criado para treinar fundamentos de objetos de data, seus métodos
+                                    e propriedades em JavaScript.</p>
+
+                                <button class="button"><a href="https://hugocicillini.github.io/relogio-dinamico/"
+                                        target="_blank">Ver Projeto</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p><span>hCicillini</span></p>
+            <p>&copy; <a href="https://github.com/hugocicillini">hugocicillini</a> copyright all rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+    window.sr = ScrollReveal({ reset: true });
+    sr.reveal('.links_media', { duration: 1000 });
+    sr.reveal('#skills', {
+        rotate: { x: 10, y: 10, z: 0 },
+        duration: 1000,
+    });
+    sr.reveal('#sobre', {
+        rotate: { x: 10, y: 10, z: 0 },
+        duration: 1000,
+    });
+    sr.reveal('#works', {
+        rotate: { x: 10, y: 10, z: 0 },
+        duration: 1000
+    });
+</script>
+
+<script src="assets/script.js"></script>
+
+</html>
