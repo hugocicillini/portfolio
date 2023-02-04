@@ -6,9 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/script.js" defer></script>
+
     <title>Portfolio</title>
 </head>
 
@@ -20,26 +25,27 @@
 
         <div id="myNav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="assets/imagens/x.png"
-                    alt="x"></a>
+                    alt="cancel-btn"></a>
 
             <nav class="navbar">
                 <ul class="nav_list" onclick="closeNav()">
-                    <li><a id="testa" href="#home0">Home</a></li>
-                    <li><a href="#sobre0">Sobre</a></li>
-                    <li><a href="#skills0">Skills</a></li>
-                    <li><a href="#works0">Works</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#works">Works</a></li>
                 </ul>
             </nav>
         </div>
 
-        <button class="nav-button" onclick="openNav()"><img src="assets/imagens/menu.png" alt="hamburguer"></button>
+        <button class="nav-button" onclick="openNav()"><img src="assets/imagens/menu.png"
+                alt="hamburguer-menu"></button>
 
     </header>
 
-    <div id="home0"></div>
+    <div id="home"></div>
 
     <main>
-        <section id="home">
+        <section id="home-section">
             <div>
                 <h1>Olá,<br>Eu sou o <span>Hugo</span><br>Web Developer</h1>
 
@@ -60,9 +66,9 @@
             </div>
         </section>
 
-        <div id="sobre0"></div>
+        <div id="sobre"></div>
 
-        <section id="sobre">
+        <section id="sobre-section">
             <h1><span>Sobre</span></h1>
 
             <div class="about_perfil">
@@ -85,98 +91,90 @@
                         - Certificado Cisco: JSE - Certified JavaScript Entry-Level Programmer;<br>
                         - Selos de Qualificação Google Cloud; <br>
                         - Certificado de Honra ao Mérito; <br>
-                        - Menção Honrosa; <br>
+                        - Menção Honrosa; <br><br>
+                        <strong>Linguagens:</strong><br>
+                        - Inglês (Full Professional);<br>
+                        - Espanhol (Full Professional).
                     </p>
                 </div>
             </div>
         </section>
 
-        <div id="skills0"></div>
+        <div id="skills"></div>
 
-        <section id="skills">
+        <section id="skills-section">
             <h1><span>Skills</span></h1>
 
             <div class="skills-progress">
-                <div>
-                    <h2>Habilidades Profissionais</h2>
 
-                    <p>Ao longo de vários vídeos e cursos na internet, além do tecnólogo em TI, obtive um ótimo
-                        conhecimento nos seguintes tópicos:</p>
+                <h2>Habilidades Profissionais</h2>
+                <p>Ao longo de vários vídeos e cursos na internet, além do tecnólogo em TI, onde aprendi a parte de
+                    desenvolvimento completo (Web e Desktop), obtive um ótimo aproveitamento nos seguintes tópicos:</p>
 
-                    <div class="percent">
-                        <p><span>HTML <i class='bx bxl-html5'></i></span>80%</p>
-                        <div class="progress">
-                            <div class="html"></div>
-                        </div>
-                    </div>
-
-                    <div class="percent">
-                        <p><span>CSS <i class='bx bxl-css3'></i></span>75%</p>
-                        <div class="progress">
-                            <div class="css"></div>
-                        </div>
-                    </div>
-
-                    <div class="percent">
-                        <p><span>JavaScript <i class='bx bxl-javascript'></i></span>60%</p>
-                        <div class="progress">
-                            <div class="js"></div>
-                        </div>
-                    </div>
-
-                    <div class="percent">
-                        <p><span>PHP <i class='bx bxl-php'></i></span>60%</p>
-                        <div class="progress">
-                            <div class="php"></div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="skills-progress">
+                <div class="side-by-side">
                     <div>
-                        <h2>Habilidades Linguísticas</h2>
-
-                        <p>Aprendendo sozinho, em casa, através de muita dedicação e disciplina, obtive (e venho
-                            obtendo) um amplo conhecimento em INGLÊS. Séries, filmes e músicas foram e são os meus
-                            maiores aliados!</p>
-
                         <div class="percent">
-                            <p><span>Entendimento <i class='bx bxs-book'></i></span>90%</p>
+                            <p><span>HTML <i class='bx bxl-html5'></i></span>80%</p>
                             <div class="progress">
-                                <div class="entend"></div>
+                                <div class="html"></div>
                             </div>
                         </div>
 
                         <div class="percent">
-                            <p><span>Escrita <i class='bx bxs-pencil'></i></span>85%</p>
+                            <p><span>CSS <i class='bx bxl-css3'></i></span>75%</p>
                             <div class="progress">
-                                <div class="escrita"></div>
+                                <div class="css"></div>
                             </div>
                         </div>
 
                         <div class="percent">
-                            <p><span>Pronunciação <i class='bx bxs-chat'></i></span>90%</p>
+                            <p><span>JavaScript <i class='bx bxl-javascript'></i></span>60%</p>
                             <div class="progress">
-                                <div class="pronun"></div>
+                                <div class="js"></div>
                             </div>
                         </div>
 
                         <div class="percent">
-                            <p><span>Comunicação <i class='bx bxs-conversation'></i></span>70%</p>
+                            <p><span>React <i class='bx bxl-react'></i></span>20%</p>
                             <div class="progress">
-                                <div class="comuni"></div>
+                                <div class="react"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-right">
+                        <div class="percent">
+                            <p><span>PHP <i class='bx bxl-php'></i></span>30%</p>
+                            <div class="progress">
+                                <div class="php"></div>
+                            </div>
+                        </div>
+
+                        <div class="percent">
+                            <p><span>phpMyAdmin <i class='bx bxs-data'></i></span>60%</p>
+                            <div class="progress">
+                                <div class="phpmyadmin"></div>
+                            </div>
+                        </div>
+
+                        <div class="percent">
+                            <p><span>C# <img src="assets/imagens/c-logo.png" alt="csharp"></span>40%</p>
+                            <div class="progress">
+                                <div class="csharp"></div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
+
         </section>
 
-        <div id="works0"></div>
+        <div id="works"></div>
 
-        <section id="works">
+        <section id="works-section">
             <h1><span>Works</span></h1>
+
             <div class="slide-container swiper">
                 <div class="slide-content">
                     <div class="card-wrapper swiper-wrapper">
@@ -235,6 +233,34 @@
                                         target="_blank">Ver Projeto</a></button>
                             </div>
                         </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <img src="assets/imagens/projeto5.png" alt="projeto5">
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">To-Do List</h2>
+                                <p class="description">Criado para treinar fundamentos de objetos de data, seus métodos
+                                    e propriedades em JavaScript.</p>
+
+                                <button class="button"><a href="https://hugocicillini.github.io/todo-list/"
+                                        target="_blank">Ver Projeto</a></button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <img src="assets/imagens/projeto6.png" alt="projeto6">
+                            </div>
+
+                            <div class="card-content">
+                                <h2 class="name">Verificação de Cadastro</h2>
+                                <p class="description">Criado para treinar fundamentos de objetos de data, seus métodos
+                                    e propriedades em JavaScript.</p>
+
+                                <button class="button"><a href="https://hugocicillini.github.io/verification-js/"
+                                        target="_blank">Ver Projeto</a></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -252,25 +278,21 @@
     </footer>
 </body>
 
-<script src="https://unpkg.com/scrollreveal"></script>
-
 <script>
     window.sr = ScrollReveal({ reset: true });
     sr.reveal('.links_media', { duration: 1000 });
-    sr.reveal('#skills', {
+    sr.reveal('#skills-section', {
         rotate: { x: 10, y: 10, z: 0 },
         duration: 1000,
     });
-    sr.reveal('#sobre', {
+    sr.reveal('#sobre-section', {
         rotate: { x: 10, y: 10, z: 0 },
         duration: 1000,
     });
-    sr.reveal('#works', {
+    sr.reveal('#works-section', {
         rotate: { x: 10, y: 10, z: 0 },
         duration: 1000
     });
 </script>
-
-<script src="assets/script.js"></script>
 
 </html>
