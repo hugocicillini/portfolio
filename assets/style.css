@@ -663,6 +663,10 @@ footer a:hover {
         width: 80vw;
     }
 
+    .skills-progress p:nth-child(2) {
+        width: 80vw;
+    }
+
 }
 
 @media screen and (min-width:1001px) and (max-width: 1499px) {
@@ -814,13 +818,13 @@ footer a:hover {
     }
 }
 
-@media screen and (min-height:801px) and (max-height: 900px) {
+@media screen and (min-height:801px) and (max-height: 1050px) {
     #home-section {
         height: 105vh;
     }
 
     #sobre-section {
-        height: 150vh;
+        height: 155vh;
     }
 
     #skills-section {
