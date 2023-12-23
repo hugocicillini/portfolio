@@ -202,7 +202,11 @@ img {
   }
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+  .section__subtitle {
+    padding: 0 2rem;
+  }
+}
 
 /* For small devices */
 @media screen and (max-width: 350px) {
