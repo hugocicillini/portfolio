@@ -21,15 +21,16 @@ function About() {
                             <li>
                                 <strong>Experiências:</strong>
                                 <ul>
-                                    <li>- Certificado Cisco: NDG Linux Unhatched;</li>
-                                    <li>- Certificado Cisco: JSE - Certified JavaScript Entry-Level Programmer;</li>
+                                    <li>- Formação TypeScript Developer – DIO;</li>
+                                    <li>- BootCamp Orange Tech - JavaScript/ ReactJS </li>
                                     <li>- Selos de Qualificação Google Cloud Foundations;</li>
-                                    <li>- Responsive Web Design - freeCodeCamp;</li>
                                     <li>- Curso JStack - JavaScript/ ReactJS/ NodeJS.</li>
+                                    <li>- Certificado Cisco: NDG Linux Unhatched;</li>
+                                    <li>- Responsive Web Design - freeCodeCamp;</li>
                                 </ul>
                             </li>
                         </ul>
-                        
+
                         <ul>
                             <li>
                                 <strong>Histórico Acadêmico:</strong>

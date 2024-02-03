@@ -14,7 +14,7 @@ function Contact() {
 
         emailjs.sendForm('service_7fhscng', 'template_0hc93n4', form.current, 'n8Vc_HH4IO4KOPgXw')
             .then(() => {
-                window.alert("Mensagem enviada")
+                window.alert("Mensagem enviada!")
                 e.target.reset()
             }, (error) => {
                 console.log(error.text);

@@ -24,34 +24,11 @@ function Backend() {
           <div className="skills__data">
             <LuBadgeCheck className='icon--badge' />
             <div>
-              <h3 className="skills__name">MySQL</h3>
+              <h3 className="skills__name">SQL</h3>
               <span className="skills__level">Intermediário</span>
             </div>
           </div>
         </div>
-        {/* <div className="skills__group">
-          <div className="skills__data">
-            <LuBadgeCheck className='icon--badge' />
-            <div>
-              <h3 className="skills__name">HTML</h3>
-              <span className="skills__level">Advanced</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <LuBadgeCheck className='icon--badge' />
-            <div>
-              <h3 className="skills__name">HTML</h3>
-              <span className="skills__level">Advanced</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <LuBadgeCheck className='icon--badge' />
-            <div>
-              <h3 className="skills__name">HTML</h3>
-              <span className="skills__level">Advanced</span>
-            </div>
-          </div>
-        </div> */}
       </div>
     </div>
   )

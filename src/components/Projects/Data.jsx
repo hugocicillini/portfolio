@@ -2,14 +2,25 @@ import React from 'react';
 
 import { IoLogoCss3, IoLogoHtml5, IoLogoJavascript, IoLogoReact } from "react-icons/io5";
 import { SiBootstrap, SiMysql, SiPhp, SiTailwindcss } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { FaNodeJs } from "react-icons/fa";
+
 
 import apiCountries from "../../assets/api-countries.png";
 import jobFinder from "../../assets/job-finder.png"
 import virtualStore from "../../assets/virtual-store.png"
 import jsOop from "../../assets/js-poo.png"
 import toDoList from "../../assets/to-do-js.png"
+import nextAuth from "../../assets/next-auth.png"
 
 export const Data = [
+    {
+        name: 'Next Authentication',
+        technologies: [<SiNextdotjs />, <IoLogoReact />, <FaNodeJs />, <BiLogoPostgresql />],
+        image: nextAuth,
+        link: 'https://next-auth-sigma-nine.vercel.app/'
+    },
     {
         name: 'API Countries',
         technologies: [<IoLogoHtml5 />, <IoLogoCss3 />, <IoLogoJavascript />],

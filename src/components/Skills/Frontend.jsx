@@ -11,14 +11,14 @@ function Frontend() {
                         <LuBadgeCheck className='icon--badge' />
                         <div>
                             <h3 className="skills__name">HTML</h3>
-                            <span className="skills__level">Intermediário</span>
+                            <span className="skills__level">Avançado</span>
                         </div>
                     </div>
                     <div className="skills__data">
                         <LuBadgeCheck className='icon--badge' />
                         <div>
                             <h3 className="skills__name">CSS</h3>
-                            <span className="skills__level">Intermediário</span>
+                            <span className="skills__level">Avançado</span>
                         </div>
                     </div>
                     <div className="skills__data">
