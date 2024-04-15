@@ -10,17 +10,26 @@ function Backend() {
           <div className="skills__data">
             <LuBadgeCheck className='icon--badge' />
             <div>
-              <h3 className="skills__name">PHP</h3>
-              <span className="skills__level">Básico</span>
+              <h3 className="skills__name">NodeJS</h3>
+              <span className="skills__level">Intermediário</span>
             </div>
           </div>
           <div className="skills__data">
             <LuBadgeCheck className='icon--badge' />
             <div>
-              <h3 className="skills__name">NodeJS</h3>
+              <h3 className="skills__name">MongoDB</h3>
+              <span className="skills__level">Intermediário</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <LuBadgeCheck className='icon--badge' />
+            <div>
+              <h3 className="skills__name">PHP</h3>
               <span className="skills__level">Básico</span>
             </div>
           </div>
+        </div>
+        <div className='skills__group'>
           <div className="skills__data">
             <LuBadgeCheck className='icon--badge' />
             <div>

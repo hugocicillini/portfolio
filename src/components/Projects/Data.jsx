@@ -1,23 +1,29 @@
 import React from 'react';
 
-import { IoLogoCss3, IoLogoHtml5, IoLogoJavascript, IoLogoReact } from "react-icons/io5";
-import { SiBootstrap, SiMysql, SiPhp, SiTailwindcss } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { BiLogoMongodb, BiLogoPostgresql, BiLogoTypescript } from "react-icons/bi";
 import { FaNodeJs } from "react-icons/fa";
+import { IoLogoCss3, IoLogoHtml5, IoLogoJavascript, IoLogoReact } from "react-icons/io5";
+import { SiBootstrap, SiMysql, SiNextdotjs, SiPhp, SiTailwindcss } from "react-icons/si";
 
 
 import apiCountries from "../../assets/api-countries.png";
-import jobFinder from "../../assets/job-finder.png"
-import virtualStore from "../../assets/virtual-store.png"
-import jsOop from "../../assets/js-poo.png"
-import toDoList from "../../assets/to-do-js.png"
-import nextAuth from "../../assets/next-auth.png"
+import jobFinder from "../../assets/job-finder.png";
+import jsOop from "../../assets/js-poo.png";
+import nextAuth from "../../assets/next-auth.png";
+import toDoList from "../../assets/to-do-js.png";
+import virtualStore from "../../assets/virtual-store.png";
+import bookManagement from "../../assets/gerenciamento-livro.png";
 
 export const Data = [
     {
-        name: 'Next Authentication',
-        technologies: [<SiNextdotjs />, <IoLogoReact />, <FaNodeJs />, <BiLogoPostgresql />],
+        name: 'Gerenciamento de Livros',
+        technologies: [<IoLogoReact />, <FaNodeJs />,<SiTailwindcss />, <SiBootstrap />, <BiLogoMongodb />],
+        image: bookManagement,
+        link: 'https://github.com/hugocicillini/book-management'
+    },
+    {
+        name: 'Autenticação NextJS',
+        technologies: [<SiNextdotjs />, <IoLogoReact />, <BiLogoTypescript />, <FaNodeJs />, <BiLogoPostgresql />],
         image: nextAuth,
         link: 'https://next-auth-sigma-nine.vercel.app/'
     },
