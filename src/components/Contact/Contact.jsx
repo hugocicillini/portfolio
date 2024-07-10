@@ -80,8 +80,8 @@ function Contact() {
 
                         <button className="button button--flex">Enviar
                             <svg
-                                class="button__icon"
-                                xmlns="http://www.w3.org/2000/svg"
+                                className="button__icon"
+                                xmlnsXlink="http://www.w3.org/2000/svg"
                                 width="24"
                                 height="24"
                                 viewBox="0 0 24 24"

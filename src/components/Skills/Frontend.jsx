@@ -40,15 +40,15 @@ function Frontend() {
           <div className="skills__data">
             <LuBadgeCheck className='icon--badge' />
             <div>
-              <h3 className="skills__name">Bootstrap</h3>
-              <span className="skills__level">Intermediário</span>
+              <h3 className="skills__name">Tailwind</h3>
+              <span className="skills__level">Avançado</span>
             </div>
           </div>
           <div className="skills__data">
             <LuBadgeCheck className='icon--badge' />
             <div>
-              <h3 className="skills__name">Tailwind</h3>
-              <span className="skills__level">Intermediário</span>
+              <h3 className="skills__name">Bootstrap</h3>
+              <span className="skills__level">Avançado</span>
             </div>
           </div>
         </div>
