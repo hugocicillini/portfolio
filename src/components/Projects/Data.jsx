@@ -47,7 +47,7 @@ export const Data = [
         name: 'Tênis Shop',
         technologies: [<SiVite />, <IoLogoReact />, <SiTailwindcss />, <FaNodeJs />, <BiLogoMongodb />],
         image: [sneakersShop, sneakersShop2],
-        link: 'https://github.com/hugocicillini/next-auth'
+        link: 'https://sneakers-shop-hcicillini.netlify.app/'
     },
     {
         name: 'API Countries',
