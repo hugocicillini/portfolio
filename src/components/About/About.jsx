@@ -1,62 +1,32 @@
-import React from 'react'
-import "./About.css"
+import React from 'react';
+import './About.css';
 
-import AboutImg from "../../assets/perfil.png"
-import CV from "../../assets/ProfileHugo.pdf"
+import AboutImg from '../../assets/perfil.png';
+import CV from '../../assets/ProfileHugo.pdf';
 
 function About() {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">Sobre Mim</h2>
 
-      <span className='section__subtitle'>Hugo, 20 anos. Me especializando em desenvolvimento full-stack!</span>
-
       <div className="about__container container grid">
         <img src={AboutImg} alt="perfil" className="about__img" />
 
         <div className="about__data">
-
           <div className="about__description">
-            <ul>
-              <li>
-                <strong>Experiências:</strong>
-                <ul>
-                  <li>- Formação TypeScript Developer – DIO;</li>
-                  <li>- Formação PHP Experience - DIO;</li>
-                  <li>- Formação Docker Fundamentals - DIO;</li>
-                  <li>- Formação CI/CD com GitLab - DIO;</li>
-                  <li>- Formação Google Cloud Platform Specialist - DIO;</li>
-                  <li>- Badges GCP (Google Cloud Platform);</li>
-                  <li>- Responsive Web Design - freeCodeCamp;</li>
-                  <li>- NDG Linux Unhatched - Cisco;</li>
-                  <li>- Bootcamp Orange Tech Plus - Inter;</li>
-                  <li>- Bootcamp JavaScript Evolution - Impulso</li>
-                </ul>
-              </li>
-            </ul>
-
-            <ul>
-              <li>
-                <strong>Histórico Acadêmico:</strong>
-                <ul>
-                  <li>- Técnico em Informática - SENAC Ribeirão Preto (Março 2022 - Setembro 2023).</li>
-                  <li>- Análise e Desenvolvimento de Sistemas - FAM - Faculdade das Américas (Agosto 2024 - Dezembro 2026).</li>
-                </ul>
-              </li>
-            </ul>
-
-            <ul>
-              <li>
-                <strong>Linguagens:</strong>
-                <ul>
-                  <li>- Inglês (Full Professional);</li>
-                  <li>- Espanhol (Full Professional).</li>
-                </ul>
-              </li>
-            </ul>
+            <p>
+              Olá! Sou o Hugo, um profissional apaixonado por desafios e pela
+              evolução contínua. Minha trajetória é marcada pela dedicação,
+              visão estratégica e um compromisso inabalável com a excelência.
+              Cada projeto é uma oportunidade de transformar ideias em soluções
+              inovadoras, sempre com foco em impacto real e aprimoramento
+              constante. Meu objetivo é ir além do código, criando experiências
+              que fazem a diferença. Vamos construir algo extraordinário juntos?
+            </p>
           </div>
 
-          <a download="" href={CV} className="button button--flex">Baixar Currículo
+          <a download="" href={CV} className="button button--flex">
+            Baixar Currículo
             <svg
               className="button__icon"
               xmlnsXlink="http://www.w3.org/2000/svg"
@@ -86,7 +56,7 @@ function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default About
+export default About;
