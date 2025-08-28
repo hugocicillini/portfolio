@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "title": "Autenticação NextAuth",
+    "description": "Sistema de autenticação com AuthJS, 2FA, Email Verification e Reset Password.",
+    "url": [
+      "/next-auth.png",
+      "/next-auth-2.png",
+      "/next-auth-3.png",
+      "/next-auth-4.png",
+      "/next-auth-5.png",
+      "/next-auth-6.png"
+    ],
+    "link": "https://github.com/hugocicillini/next-auth",
+    "badgeList": [
+      { "id": 2, "name": "React" },
+      { "id": 1, "name": "NextJS" },
+      { "id": 3, "name": "TypeScript" },
+      { "id": 4, "name": "TailwindCSS" },
+      { "id": 5, "name": "Resend" },
+      { "id": 6, "name": "Prisma" },
+      { "id": 7, "name": "PostgreSQL" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Gerenciamento de Livros",
+    "description": "Aplicação para gerenciar coleções de livros com interface responsiva.",
+    "url": [
+      "/gerenciamento-livro.png",
+      "/gerenciamento-livro-2.png",
+      "/gerenciamento-livro-3.png",
+      "/gerenciamento-livro-4.png",
+      "/gerenciamento-livro-5.png",
+      "/gerenciamento-livro-6.png",
+      "/gerenciamento-livro-7.png"
+    ],
+    "link": "https://github.com/hugocicillini/book-management",
+    "badgeList": [
+      { "id": 4, "name": "React" },
+      { "id": 3, "name": "Vite" },
+      { "id": 5, "name": "Bootstrap" },
+      { "id": 6, "name": "TailwindCSS" },
+      { "id": 8, "name": "Express" },
+      { "id": 7, "name": "JWT" },
+      { "id": 9, "name": "MongoDB" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Ecommerce de Tênis",
+    "description": "E-commerce completo de tênis com seleção de produtos, carrinho, checkout e pedidos.",
+    "url": [
+      "/sneakers-shop.png",
+      "/sneakers-shop-2.png",
+      "/sneakers-shop-3.png",
+      "/sneakers-shop-4.png",
+      "/sneakers-shop-5.png",
+      "/sneakers-shop-6.png",
+      "/sneakers-shop-7.png"
+    ],
+    "link": "https://github.com/hugocicillini/sneakers-shop",
+    "badgeList": [
+      { "id": 16, "name": "React" },
+      { "id": 15, "name": "Vite" },
+      { "id": 17, "name": "TailwindCSS" },
+      { "id": 18, "name": "ShadCN" },
+      { "id": 19, "name": "NodeJS" },
+      { "id": 20, "name": "Express" },
+      { "id": 21, "name": "JWT" },
+      { "id": 22, "name": "Swagger" },
+      { "id": 23, "name": "Mercado Pago" },
+      { "id": 24, "name": "MongoDB" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Social Media",
+    "description": "Plataforma de mídia social com autenticação Clerk e Cloudinary.",
+    "url": [
+      "/social-media.png",
+      "/social-media-2.png",
+      "/social-media-3.png",
+      "/social-media-4.png",
+      "/social-media-5.png"
+    ],
+    "link": "https://github.com/hugocicillini/social-media",
+    "badgeList": [
+      { "id": 10, "name": "React" },
+      { "id": 9, "name": "NextJS" },
+      { "id": 11, "name": "TypeScript" },
+      { "id": 4, "name": "TailwindCSS" },
+      { "id": 15, "name": "Clerk" },
+      { "id": 16, "name": "Cloudinary" },
+      { "id": 12, "name": "Prisma" },
+      { "id": 14, "name": "PostgreSQL" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "MysPro",
+    "description": "Gerenciador de vídeos, com filtragem avançada.",
+    "url": ["/myspro.png", "/myspro-2.png", "/myspro-3.png"],
+    "link": "https://github.com/hugocicillini/myspro",
+    "badgeList": [
+      { "id": 10, "name": "React" },
+      { "id": 9, "name": "Vite" },
+      { "id": 11, "name": "TypeScript" },
+      { "id": 4, "name": "TailwindCSS" },
+      { "id": 12, "name": "Express" },
+      { "id": 14, "name": "MongoDB" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Blog HCO",
+    "description": "Blog empresarial com sistema de gerenciamento de conteúdo.",
+    "url": ["/blog.png", "/blog-2.png", "/blog-3.png", "/blog-4.png"],
+    "link": "https://github.com/hugocicillini/fullstack-blog",
+    "badgeList": [
+      { "id": 10, "name": "React" },
+      { "id": 9, "name": "NextJS" },
+      { "id": 11, "name": "TypeScript" },
+      { "id": 4, "name": "TailwindCSS" },
+      { "id": 14, "name": "MongoDB" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "API Countries",
+    "description": "Sistema de consulta de informações sobre países.",
+    "url": ["/api-countries.png", "/api-countries-2.png"],
+    "link": "https://github.com/hugocicillini/rest-countries-api",
+    "badgeList": [
+      { "id": 20, "name": "HTML5" },
+      { "id": 21, "name": "CSS3" },
+      { "id": 22, "name": "JavaScript" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Vagas de Emprego",
+    "description": "Plataforma para busca de vagas de emprego.",
+    "url": ["/job-finder.png", "/job-finder-2.png"],
+    "link": "https://github.com/hugocicillini/job-finder",
+    "badgeList": [
+      { "id": 27, "name": "React" },
+      { "id": 26, "name": "Vite" },
+      { "id": 28, "name": "TailwindCSS" }
+    ]
+  }
+]
