@@ -1,6 +1,6 @@
 import Autoplay from 'embla-carousel-autoplay';
 import { useEffect, useState } from 'react';
-import { LuExternalLink, LuGithub, LuImagePlus } from 'react-icons/lu';
+import { ExternalLink, Github, ImagePlus } from 'lucide-react';
 import ImageGallery from './ImageGallery';
 import { Badge } from './ui/badge';
 import { Button } from './ui/button';
@@ -57,7 +57,7 @@ const WorkList = () => {
         className="w-full select-none"
       >
         <CarouselContent className="py-4">
-          {worksData.map((work) => {
+          {worksData.map((work, _index) => {
             const hasMultipleImages =
               Array.isArray(work.url) && work.url.length > 1;
             const thumbnailUrl = Array.isArray(work.url)
@@ -66,7 +66,7 @@ const WorkList = () => {
 
             return (
               <CarouselItem
-                key={work.id}
+                key={_index}
                 className="md:basis-1/2 w-full xl:basis-1/3 pt-6"
               >
                 <div className="p-1 h-full">
@@ -82,7 +82,7 @@ const WorkList = () => {
                             />
                             {hasMultipleImages && (
                               <div className="absolute bottom-2 right-2 bg-black/70 text-white text-xs px-2 py-1 rounded-md flex items-center">
-                                <LuImagePlus size={14} className="mr-1" />
+                                <ImagePlus size={14} className="mr-1" />
                                 {Array.isArray(work.url) ? work.url.length : 1}
                               </div>
                             )}
@@ -120,7 +120,7 @@ const WorkList = () => {
                                 rel="noopener noreferrer"
                                 className="flex items-center"
                               >
-                                <LuGithub className="mr-2" size={18} />
+                                <Github className="mr-2" size={18} />
                                 Ver no GitHub
                               </a>
                             </Button>
@@ -155,7 +155,7 @@ const WorkList = () => {
                               className="flex items-center justify-center w-full"
                             >
                               Ver Projeto
-                              <LuExternalLink className="ml-2" size={16} />
+                              <ExternalLink className="ml-2" size={16} />
                             </a>
                           </Button>
                         </div>

@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "title": "Autenticação NextAuth",
     "description": "Sistema de autenticação com AuthJS, 2FA, Email Verification e Reset Password.",
     "url": [
@@ -23,7 +22,6 @@
     ]
   },
   {
-    "id": 2,
     "title": "Gerenciamento de Livros",
     "description": "Aplicação para gerenciar coleções de livros com interface responsiva.",
     "url": [
@@ -47,7 +45,6 @@
     ]
   },
   {
-    "id": 3,
     "title": "Ecommerce de Tênis",
     "description": "E-commerce completo de tênis com seleção de produtos, carrinho, checkout e pedidos.",
     "url": [
@@ -74,7 +71,6 @@
     ]
   },
   {
-    "id": 4,
     "title": "Social Media",
     "description": "Plataforma de mídia social com autenticação Clerk e Cloudinary.",
     "url": [
@@ -97,7 +93,6 @@
     ]
   },
   {
-    "id": 5,
     "title": "MysPro",
     "description": "Gerenciador de vídeos, com filtragem avançada.",
     "url": ["/myspro.png", "/myspro-2.png", "/myspro-3.png"],
@@ -112,7 +107,6 @@
     ]
   },
   {
-    "id": 6,
     "title": "Blog HCO",
     "description": "Blog empresarial com sistema de gerenciamento de conteúdo.",
     "url": ["/blog.png", "/blog-2.png", "/blog-3.png", "/blog-4.png"],
@@ -126,7 +120,6 @@
     ]
   },
   {
-    "id": 7,
     "title": "API Countries",
     "description": "Sistema de consulta de informações sobre países.",
     "url": ["/api-countries.png", "/api-countries-2.png"],
@@ -138,7 +131,6 @@
     ]
   },
   {
-    "id": 8,
     "title": "Vagas de Emprego",
     "description": "Plataforma para busca de vagas de emprego.",
     "url": ["/job-finder.png", "/job-finder-2.png"],

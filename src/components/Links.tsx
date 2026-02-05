@@ -1,30 +1,30 @@
-import { LuInstagram, LuLinkedin, LuGithub, LuMail } from 'react-icons/lu';
+import { Github, Instagram, Linkedin, Mail } from "lucide-react";
 
 const Data = [
   {
     id: 1,
-    name: 'Linkedin',
-    url: 'https://www.linkedin.com/in/hugocicillini/',
-    icon: <LuLinkedin size={24} />,
+    name: "Linkedin",
+    url: "https://www.linkedin.com/in/hugocicillini/",
+    icon: <Linkedin size={24} />,
   },
   {
     id: 2,
-    name: 'Github',
-    url: 'https://github.com/hugocicillini',
-    icon: <LuGithub size={24} />,
+    name: "Github",
+    url: "https://github.com/hugocicillini",
+    icon: <Github size={24} />,
   },
   {
     id: 3,
-    name: 'Instagram',
-    url: 'https://www.instagram.com/hugocicillini/',
-    icon: <LuInstagram size={24} />,
+    name: "Instagram",
+    url: "https://www.instagram.com/hugocicillini/",
+    icon: <Instagram size={24} />,
   },
 
   {
     id: 4,
-    name: 'Mail',
-    url: 'mailto:hugo.cicillini@gmail.com',
-    icon: <LuMail size={24} />,
+    name: "Mail",
+    url: "mailto:hugo.cicillini@gmail.com",
+    icon: <Mail size={24} />,
   },
 ];
 

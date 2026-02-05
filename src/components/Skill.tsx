@@ -1,63 +1,50 @@
-import React from 'react';
+import { Database } from "lucide-react";
+import React from "react";
 
-import { BiLogoMongodb } from 'react-icons/bi';
-import { FaNodeJs, FaReact } from 'react-icons/fa6';
-import {
-  SiExpress,
-  SiNextdotjs,
-  SiPrisma,
-  SiTypescript,
-  SiVite,
-} from 'react-icons/si';
+import { BiLogoMongodb } from "react-icons/bi";
+import { FaNodeJs, FaReact } from "react-icons/fa6";
+import { SiDotnet, SiExpress, SiNextdotjs, SiTypescript } from "react-icons/si";
 
 const Data = [
   {
-    id: 1,
-    name: 'ReactJS',
-    img: <FaReact className="p-1" />,
-    description: 'Biblioteca',
+    name: "ReactJS",
+    img: <FaReact />,
+    description: "Biblioteca",
   },
   {
-    id: 2,
-    name: 'TypeScript',
+    name: "TypeScript",
     img: <SiTypescript />,
-    description: 'Syntax JavaScript',
+    description: "Syntax JavaScript",
   },
   {
-    id: 3,
-    name: 'NextJS',
+    name: "NextJS",
     img: <SiNextdotjs />,
-    description: 'React Framework',
+    description: "React Framework",
   },
   {
-    id: 4,
-    name: 'ViteJS',
-    img: <SiVite />,
-    description: 'Build Tool',
-  },
-  { 
-    id: 5,
-    name: 'NodeJS',
+    name: "NodeJS",
     img: <FaNodeJs />,
-    description: 'JavaScript Server',
+    description: "JavaScript Server",
   },
   {
-    id: 6,
-    name: 'ExpressJS',
+    name: "ExpressJS",
     img: <SiExpress />,
-    description: 'Node Framework',
+    description: "Node Framework",
   },
   {
-    id: 7,
-    name: 'Prisma',
-    img: <SiPrisma />,
-    description: 'ORM',
+    name: ".NET ",
+    img: <SiDotnet />,
+    description: "C# Framework",
   },
   {
-    id: 8,
-    name: 'MongoDB',
+    name: "SQL",
+    img: <Database />,
+    description: "Postgres/SQL Server",
+  },
+  {
+    name: "NoSQL",
     img: <BiLogoMongodb />,
-    description: 'NoSQL Database',
+    description: "MongoDB",
   },
 ];
 
@@ -70,13 +57,13 @@ const Skill = () => {
         o desenvolvimento de projetos.
       </p>
       <div className="grid 2xl:grid-cols-4 sm:grid-cols-2 gap-2 pt-6">
-        {Data.map((item) => (
+        {Data.map((item, _index) => (
           <div
-            key={item.id}
+            key={_index}
             className="border-[#63666b] border-2 mt-4 flex gap-4 p-2.5 rounded-md"
           >
             <div className="text-4xl my-auto bg-[#63666b31] rounded-md p-1 hover:scale-110 transition duration-300">
-              {React.cloneElement(item.img, { className: 'p-1 w-8 h-8' })}
+              {React.cloneElement(item.img, { className: "p-1 w-8 h-8" })}
             </div>
             <div>
               <p className="font-bold text-sm">{item.name}</p>

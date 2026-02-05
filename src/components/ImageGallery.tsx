@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { LuChevronLeft, LuChevronRight } from 'react-icons/lu';
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useState } from "react";
 
 const ImageGallery = ({ images }: { images: string[] | string }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -13,7 +13,7 @@ const ImageGallery = ({ images }: { images: string[] | string }) => {
 
   const prevImage = () => {
     setCurrentIndex(
-      (prev) => (prev - 1 + imageArray.length) % imageArray.length
+      (prev) => (prev - 1 + imageArray.length) % imageArray.length,
     );
   };
 
@@ -36,7 +36,7 @@ const ImageGallery = ({ images }: { images: string[] | string }) => {
               className="absolute top-1/2 left-2 -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white p-2 rounded-full transition-colors"
               aria-label="Imagem anterior"
             >
-              <LuChevronLeft size={20} />
+              <ChevronLeft size={20} />
             </button>
 
             <button
@@ -44,7 +44,7 @@ const ImageGallery = ({ images }: { images: string[] | string }) => {
               className="absolute top-1/2 right-2 -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white p-2 rounded-full transition-colors"
               aria-label="Próxima imagem"
             >
-              <LuChevronRight size={20} />
+              <ChevronRight size={20} />
             </button>
 
             <div className="absolute bottom-2 left-0 right-0 flex justify-center gap-1.5">
@@ -53,7 +53,7 @@ const ImageGallery = ({ images }: { images: string[] | string }) => {
                   key={index}
                   onClick={() => setCurrentIndex(index)}
                   className={`w-2 h-2 rounded-full transition-colors ${
-                    index === currentIndex ? 'bg-white' : 'bg-white/40'
+                    index === currentIndex ? "bg-white" : "bg-white/40"
                   }`}
                   aria-label={`Ver imagem ${index + 1}`}
                 />

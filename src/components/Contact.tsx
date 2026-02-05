@@ -1,13 +1,19 @@
-import { Button } from '@/components/ui/button';
-import { Card } from '@/components/ui/card';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Textarea } from '@/components/ui/textarea';
-import emailjs from '@emailjs/browser';
-import { FormEvent, useRef, useState } from 'react';
-import { FaArrowRight, FaInstagram, FaLinkedin } from 'react-icons/fa6';
-import { LuLoader, LuMail, LuSend } from 'react-icons/lu';
-import { toast } from 'sonner';
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import emailjs from "@emailjs/browser";
+import {
+  ArrowRight,
+  Instagram,
+  Linkedin,
+  Loader,
+  Mail,
+  Send,
+} from "lucide-react";
+import { FormEvent, useRef, useState } from "react";
+import { toast } from "sonner";
 
 const Contact = () => {
   const formRef = useRef<HTMLFormElement>(null);
@@ -26,17 +32,17 @@ const Contact = () => {
         formRef.current,
         {
           publicKey: import.meta.env.VITE_PUBLIC_KEY,
-        }
+        },
       )
       .then(
         () => {
-          toast.success('Email enviado com sucesso!');
+          toast.success("Email enviado com sucesso!");
           formRef.current?.reset();
         },
         (error) => {
-          toast.error('Erro ao enviar email!');
+          toast.error("Erro ao enviar email!");
           console.error(error);
-        }
+        },
       )
       .finally(() => {
         setIsSubmitting(false);
@@ -53,7 +59,7 @@ const Contact = () => {
         <div className="flex flex-col gap-6 w-full lg:w-1/4">
           <Card className="bg-[#63666b31] p-6 flex gap-2 text-sm flex-col items-center text-center shadow-sm hover:shadow-md transition-all duration-300 hover:bg-[#63666b41]">
             <div className="bg-[#63666b46] p-3 rounded-full mb-2">
-              <LuMail className="text-3xl text-white" />
+              <Mail className="text-3xl text-white" />
             </div>
             <div>
               <p className="text-white font-medium">Email</p>
@@ -65,8 +71,8 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-1 text-zinc-200 bg-[#63666b36] rounded-md p-2 mt-2 hover:bg-[#63666b46] transition-all w-full justify-center"
             >
-              Fale comigo{' '}
-              <FaArrowRight
+              Fale comigo{" "}
+              <ArrowRight
                 size={12}
                 className="hover:translate-x-1 transition group-hover:translate-x-1"
               />
@@ -75,7 +81,7 @@ const Contact = () => {
 
           <Card className="bg-[#63666b31] p-6 flex gap-2 text-sm flex-col items-center text-center shadow-sm hover:shadow-md transition-all duration-300 hover:bg-[#63666b41]">
             <div className="bg-[#63666b46] p-3 rounded-full mb-2">
-              <FaLinkedin className="text-3xl text-white" />
+              <Linkedin className="text-3xl text-white" />
             </div>
             <div>
               <p className="text-white font-medium">LinkedIn</p>
@@ -87,8 +93,8 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-1 text-zinc-200 bg-[#63666b36] rounded-md p-2 mt-2 hover:bg-[#63666b46] transition-all w-full justify-center"
             >
-              Fale comigo{' '}
-              <FaArrowRight
+              Fale comigo{" "}
+              <ArrowRight
                 size={12}
                 className="hover:translate-x-1 transition group-hover:translate-x-1"
               />
@@ -97,7 +103,7 @@ const Contact = () => {
 
           <Card className="bg-[#63666b31] p-6 flex gap-2 text-sm flex-col items-center text-center shadow-sm hover:shadow-md transition-all duration-300 hover:bg-[#63666b41]">
             <div className="bg-[#63666b46] p-3 rounded-full mb-2">
-              <FaInstagram className="text-3xl text-white" />
+              <Instagram className="text-3xl text-white" />
             </div>
             <div>
               <p className="text-white font-medium">Instagram</p>
@@ -109,8 +115,8 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-1 text-zinc-200 bg-[#63666b36] rounded-md p-2 mt-2 hover:bg-[#63666b46] transition-all w-full justify-center"
             >
-              Fale comigo{' '}
-              <FaArrowRight
+              Fale comigo{" "}
+              <ArrowRight
                 size={12}
                 className="hover:translate-x-1 transition group-hover:translate-x-1"
               />
@@ -169,17 +175,17 @@ const Contact = () => {
             <Button
               type="submit"
               className="cursor-pointer bg-zinc-200 hover:bg-zinc-200 text-gray-800"
-              variant={'secondary'}
+              variant={"secondary"}
               disabled={isSubmitting}
             >
               {isSubmitting ? (
                 <>
                   Enviando...
-                  <LuLoader className="animate-spin" />
+                  <Loader className="animate-spin" />
                 </>
               ) : (
                 <>
-                  Enviar <LuSend />
+                  Enviar <Send />
                 </>
               )}
             </Button>
